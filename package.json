@@ -1,20 +1,19 @@
 {
   "name": "javascript",
-  "version": "1.0.0",
-  "main": "index.js",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "vite",
+    "build": "vite build"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Druv-4182122/Javascript.git"
+ 
+  "devDependencies": {
+    "vite": "^4.0.4"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/Druv-4182122/Javascript/issues"
-  },
-  "homepage": "https://github.com/Druv-4182122/Javascript#readme",
-  "description": ""
+  "dependencies": {
+    "gsap": "^3.5.1",
+    "lil-gui": "^0.20.0",
+    "three": "^0.148.0"
+  }
 }
